@@ -445,19 +445,35 @@ pip install pandas numpy matplotlib seaborn plotly kaleido scipy pycountry tqdm 
 
 ## References
 
-Akbaritabar A., Theile T. and Zagheni E. (2024). Bilateral flows and rates of international migration of scholars for 210 countries for the period 1998-2020. *Scientific Data* 11:816. doi: 10.1038/s41597-024-03655-9
+**[1]** Akbaritabar, A., Theile, T., and Zagheni, E. (2024). Bilateral flows and rates of international migration of scholars for 210 countries for the period 1998-2020. *Scientific Data*, 11, 816, pp. 1-14.
+doi: [10.1038/s41597-024-03655-9](https://doi.org/10.1038/s41597-024-03655-9) | Data: [10.5281/zenodo.11145735](https://doi.org/10.5281/zenodo.11145735)
 
-Akbaritabar A., Danko M. J., Zhao X. and Zagheni E. (2025). Global subnational estimates of migration of scientists reveal large disparities in internal and international flows. *PNAS* 122:15, e2424521122. doi: 10.1073/pnas.2424521122
+**[2]** Akbaritabar, A., Danko, M. J., Zhao, X., and Zagheni, E. (2025). Global subnational estimates of migration of scientists reveal large disparities in internal and international flows. *Proceedings of the National Academy of Sciences*, 122(15), e2424521122.
+doi: [10.1073/pnas.2424521122](https://doi.org/10.1073/pnas.2424521122)
 
-Akbaritabar A., Theile T. and Zagheni E. (2023). Global flows and rates of international migration of scholars. MPIDR Working Paper WP-2023-018.
+**[3]** Akbaritabar, A., Theile, T., and Zagheni, E. (2023). Global flows and rates of international migration of scholars. *MPIDR Working Paper* WP-2023-018. Max Planck Institute for Demographic Research, Rostock, Germany.
+Available at: [mpidr.de/publications](https://www.mpidr.de/publications/details/?pubId=65730)
 
-Sanlitürk A. E., Zagheni E., Danko M. J., Theile T. and Akbaritabar A. (2023). Global patterns of migration of scholars with economic development. *PNAS* 120:4, e2217937120. doi: 10.1073/pnas.2217937120
+**[4]** Sanlitürk, A. E., Zagheni, E., Danko, M. J., Theile, T., and Akbaritabar, A. (2023). Global patterns of migration of scholars with economic development. *Proceedings of the National Academy of Sciences*, 120(4), e2217937120.
+doi: [10.1073/pnas.2217937120](https://doi.org/10.1073/pnas.2217937120)
 
 ---
 
 ## Acknowledgements
 
-This analysis was made possible entirely by the open science practices of the Digital and Computational Demography group at MPIDR. Aliakbar Akbaritabar, Tom Theile, and Emilio Zagheni not only produced a methodologically rigorous dataset but released it openly under CC-BY 4.0. The fact that a researcher at a UNFPA state office in Odisha can independently reproduce and extend results from one of the world's leading demographic research institutes is itself a demonstration of what open data makes possible.
+I wish to express my sincere appreciation to **Aliakbar Akbaritabar, Tom Theile, and Emilio Zagheni** at the Max Planck Institute for Demographic Research for producing what is, in my view, one of the most methodologically careful and intellectually generous contributions to computational demography in recent years. Their decision to cross-validate across two independent bibliometric databases, to be transparent about the limitations of affiliation-change data as a migration proxy, and above all to release the complete dataset openly under CC-BY 4.0, reflects exactly the kind of scientific practice that makes cumulative knowledge possible. This project would not exist without that generosity.
+
+I am also grateful to the **Zenodo platform (CERN)** for providing the archival infrastructure that makes reproducible research accessible to researchers anywhere in the world, regardless of institutional affiliation.
+
+---
+
+## Declaration
+
+> **This is an independent exploratory analysis conducted as a personal learning exercise.**
+>
+> This project is an independent, self-initiated replication and extension study. It is not affiliated with, endorsed by, or conducted in association with any organization or institution. The primary objective is to develop competence in computational demography, bibliometric data analysis, and reproducible research workflows.
+>
+> All analytical decisions, interpretations, and any errors in this repository are solely my own. The underlying data is the work of Akbaritabar, Theile and Zagheni (2024) and must be cited accordingly if used. This repository is shared in the spirit of open science and should be treated as a work-in-progress learning artefact, not a peer-reviewed study.
 
 ---
 
