@@ -1,5 +1,4 @@
-# India Scholarly Migration Analysis
-### An Independent Replication and Deep-Dive Extension of the MPIDR Scholarly Migration Database
+# India Scholarly Migration Analysis: An Independent Replication and Deep-Dive Extension of the MPIDR Scholarly Migration Database
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.9%2B-blue?style=flat-square&logo=python" />
