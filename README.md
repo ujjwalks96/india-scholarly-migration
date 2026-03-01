@@ -1,6 +1,8 @@
 # India Scholarly Migration Analysis: An Independent Replication and Deep-Dive Extension of the MPIDR Scholarly Migration Database
 
 <p align="center">
+  <img src="https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/badge/Interactive%20Figures-3%20HTML-blueviolet?style=flat-square" />
   <img src="https://img.shields.io/badge/Python-3.9%2B-blue?style=flat-square&logo=python" />
   <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat-square&logo=jupyter" />
   <img src="https://img.shields.io/badge/Data-Zenodo%2011145735-green?style=flat-square" />
@@ -12,6 +14,18 @@
   <strong>Ujjwal Kumar Swain</strong><br>
   M.Sc.- Geoinformation Science and Earth Observation (Spec: Geoinformatics), University of Twente / IIRS-ISRO
 </p>
+
+---
+
+## Live Interactive Figures
+
+> This repository is published via **GitHub Pages**. All three interactive HTML figures are fully hosted and accessible directly in your browser — no download, no setup required.
+
+| Figure | Description | Link |
+|--------|-------------|------|
+| World Choropleth (1998-2020) | Animated NMR map with year slider and hover tooltips | [Open live](https://ujjwalks96.github.io/india-scholarly-migration/figures/fig5_interactive_world_map.html) |
+| India Flow Map | Scholar outflow corridors on a world map, line thickness = volume | [Open live](https://ujjwalks96.github.io/india-scholarly-migration/figures/india_flow_map.html) |
+| India Dashboard | Four-panel interactive summary of all India findings | [Open live](https://ujjwalks96.github.io/india-scholarly-migration/figures/india/india_dashboard.html) |
 
 ---
 
@@ -259,7 +273,7 @@ NMR trajectories from 1998 to 2020 for three groups of countries: major receiver
 
 #### Figure 5 - Interactive World Choropleth (HTML)
 
-> **[Open figures/fig5_interactive_world_map.html in your browser to explore this figure]**
+> **Live:** [https://ujjwalks96.github.io/india-scholarly-migration/figures/fig5_interactive_world_map.html](https://ujjwalks96.github.io/india-scholarly-migration/figures/fig5_interactive_world_map.html)
 
 An animated choropleth showing country-level NMR for every year from 1998 to 2020. The colour scale (Red-Yellow-Green, centred at zero) shows net senders in red and net receivers in green. A Play button animates the full 23-year sequence. A year slider allows manual navigation. Colour is clipped to [-0.02, +0.02] to prevent micro-state extremes from washing out the global pattern. Hover over any country to see exact NMR values, scholar population, and migration counts.
 
@@ -307,7 +321,7 @@ NMR values for 12 South and Southeast Asian countries displayed as a colour-code
 
 #### India Flow Map (HTML)
 
-> **[Open figures/india_flow_map.html in your browser to explore this figure]**
+> **Live:** [https://ujjwalks96.github.io/india-scholarly-migration/figures/india_flow_map.html](https://ujjwalks96.github.io/india-scholarly-migration/figures/india_flow_map.html)
 
 Interactive map showing India's top scholar outflow corridors as lines on a world map. Line thickness is proportional to migration volume, making it immediately clear which destinations absorb the most Indian scholars. Hover over each line to see the exact migration count for that corridor. India is marked with a star at its centroid. The USA corridor line is visibly thicker than all others.
 
@@ -379,7 +393,7 @@ Six-panel figure showing the Gini coefficient of in-migration rates (solid orang
 
 #### Interactive Dashboard (HTML)
 
-> **[Open figures/india/india_dashboard.html in your browser to explore this figure]**
+> **Live:** [https://ujjwalks96.github.io/india-scholarly-migration/figures/india/india_dashboard.html](https://ujjwalks96.github.io/india-scholarly-migration/figures/india/india_dashboard.html)
 
 A four-panel interactive Plotly dashboard combining the main findings of the India analysis in a single shareable HTML file. Panels show: India NMR trend (top-left), top destinations for a selected year (top-right), corridor asymmetry (bottom-left), and BRICS comparison (bottom-right). Hover over any data point for exact values. Designed for use in presentations and for sharing with non-technical stakeholders.
 
