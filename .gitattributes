@@ -1,0 +1,22 @@
+# Mark all Jupyter notebooks as text so Git does not treat them as binary
+*.ipynb text
+
+# Ensure consistent line endings on all platforms
+*.py text eol=lf
+*.md text eol=lf
+*.ipynb text eol=lf
+*.txt text eol=lf
+*.html text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+
+# Treat image and data files as binary so Git does not attempt to diff them
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.parquet binary
+*.zip binary
+
+# Tell GitHub to render HTML files (interactive figures) as code, not pages
+*.html linguist-documentation
