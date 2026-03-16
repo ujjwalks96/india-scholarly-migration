@@ -19,7 +19,7 @@
 
 ## Live Interactive Figures
 
-> This repository is published via **GitHub Pages**. All three interactive HTML figures are fully hosted and accessible directly in your browser — no download, no setup required.
+> This repository is published via **GitHub Pages**. All three interactive HTML figures are fully hosted and accessible directly in your browser - no download, no setup required.
 
 | Figure | Description | Link |
 |--------|-------------|------|
